@@ -27,5 +27,3 @@ Browser usage (you need to be able to set header manual!) :
 
 #https://[IP]:13037?url=[target_url]
 
-
-have fun :)
