@@ -18,4 +18,4 @@ curl -X POST  --header "setuser: test123" --header "setpwd: test123" http://192.
 
 #http://[IP]:6004?url=[target_url]
 
-#https://[IP]:1337?url=[target_url]
+#https://[IP]:13037?url=[target_url]
