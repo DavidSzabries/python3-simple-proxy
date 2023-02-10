@@ -11,9 +11,9 @@ server.pem for https
 
 register user:
 
-curl -X POST  --header "setuser: test123" --header "setpwd: test123" http://[IP]:5000/register
+curl -X POST  --header "setuser: test123" --header "setpwd: test123" http://[API-IP]:5000/register
 
-Invoke-WebRequest -Method POST -Headers @{'setuser'='test123';'setpwd'='test123'} -Uri 'http://[IP]:5000/register'
+Invoke-WebRequest -Method POST -Headers @{'setuser'='test123';'setpwd'='test123'} -Uri 'http://[API-IP]:5000/register'
 
 terminal Usage:
 
