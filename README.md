@@ -21,8 +21,11 @@ terminal Usage:
 
 #Invoke-WebRequest -Uri "http://[IP]:9004/?url=https://google.com" -Method GET -Headers @{"username"="test";"password"="test123"}
 
-Browser usage (you need to be alble to set header manual) :
+Browser usage (you need to be able to set header manual!) :
 
 #http://[IP]:6004?url=[target_url]
 
 #https://[IP]:13037?url=[target_url]
+
+
+have fun :)
