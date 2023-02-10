@@ -1,10 +1,10 @@
-#curl --header "username: wartak" --header "password: hallo123" http://192.168.178.58:9004/?url=https://google.com
-#Invoke-WebRequest -Uri "http://192.168.178.40:9004/?url=https://google.com" -Method GET -Headers @{"username"="wartak";"password"="hallo123"}
-#http://[IP]:6004?url=[target_url]
-#https://[IP]:1337?url=[target_url]
+#curl --header "username: test" --header "password: test123" http://[IP]:9004/?url=https://google.com
+#Invoke-WebRequest -Uri "http://[IP]:9004/?url=https://google.com" -Method GET -Headers @{"username"="test";"password"="test123"}
+#http://[IP]:9004?url=[target_url]
+#https://[IP]:13037?url=[target_url]
 #client side run this on linux
-#export http_proxy=http://IP:6004
-#export https_proxy=https://IP:1337
+#export http_proxy=http://IP:9004
+#export https_proxy=https://IP:13037
 import multiprocessing 
 import http.server 
 import ssl
