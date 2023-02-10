@@ -1,4 +1,4 @@
-# python3-simple-proxy
+# python3-simple-HTTP/HTTPS-proxy
 simple proxy script with api authentication
 
 Needs pass.txt file
