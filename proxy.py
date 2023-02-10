@@ -3,8 +3,8 @@
 #http://[IP]:6004?url=[target_url]
 #https://[IP]:1337?url=[target_url]
 #client side run this on linux
-#export httphttp_proxy=ctp://IP:6004
-#export https_proxy=http://IP:1337
+#export http_proxy=http://IP:6004
+#export https_proxy=https://IP:1337
 import multiprocessing 
 import http.server 
 import ssl
