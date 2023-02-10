@@ -2,7 +2,7 @@
 #Invoke-WebRequest -Uri "http://192.168.178.40:9004/?url=https://google.com" -Method GET -Headers @{"username"="wartak";"password"="hallo123"}
 #http://[IP]:6004?url=[target_url]
 #https://[IP]:1337?url=[target_url]
-#client side run this
+#client side run this on linux
 #export httphttp_proxy=ctp://IP:6004
 #export https_proxy=http://IP:1337
 import multiprocessing 
