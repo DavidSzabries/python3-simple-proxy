@@ -19,7 +19,7 @@ terminal Usage:
 
 #curl --header "username: test" --header "password: test123" http://[IP]:9004/?url=https://google.com
 
-#Invoke-WebRequest -Uri "http://[IP]:9004/?url=https://google.com" -Method GET -Headers @{"username"="test";"password"="test123"}
+#Invoke-WebRequest -Uri "http://[IP]:9004/?url=https://google.com" -Method GET -Headers @{"username"="test";"password"="test123"} -OutFile "test.bin"
 
 Browser usage (you need to be able to set headers manual!) :
 
